@@ -427,6 +427,14 @@ const App: React.FC = () => {
         )}
 
       </main>
+
+      <footer className="w-full p-6 text-center text-gray-500 text-sm border-t border-gray-800 bg-gray-950/80 backdrop-blur-md z-40 mt-auto">
+        <p>
+            This Tool presented by <a href="https://peakd.com/@louis88" target="_blank" rel="noopener noreferrer" className="text-brand-gold hover:underline">louis88</a> 
+            <span className="mx-2">/</span> 
+            Vote for Witness <a href="https://vote.hive.uno/@louis.witness" target="_blank" rel="noopener noreferrer" className="text-brand-neon hover:underline">@louis.witness</a>
+        </p>
+      </footer>
     </div>
   );
 };

@@ -1,0 +1,5 @@
+{
+  "name": "Hive Fortune Roller",
+  "description": "A provably fair winner selection tool with CS:GO Roll style animation, powered by Hive block hashes.",
+  "requestFramePermissions": []
+}

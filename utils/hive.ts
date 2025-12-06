@@ -23,7 +23,8 @@ export const BOT_BLACKLIST = [
   "voinvote2",
   "voinvote3",
   "pizzabot",
-  "ecency"
+  "ecency",
+  "kgakakillerg"
 ];
 
 /**
@@ -48,7 +49,7 @@ export const extractPostDetails = (url: string): { author: string; permlink: str
 /**
  * Generates a consistent color from a string (username).
  */
-const stringToColor = (str: string) => {
+export const stringToColor = (str: string) => {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
     hash = str.charCodeAt(i) + ((hash << 5) - hash);

@@ -22,6 +22,7 @@ export enum GameStatus {
 export interface HistoryItem {
   id: string;
   winnerName: string;
+  winnerAvatar: string;
   blockHash: string;
   timestamp: number;
 }
